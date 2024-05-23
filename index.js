@@ -35,8 +35,8 @@ app.get("/", (req, res) => {
 });
 
 //Se levanta el servidor de Node para probar la ruta raiz
-app.listen(3000, () => {
-    console.log("Servidor ejecutándose en http://localhost:3000/");
+app.listen(5000, () => {
+    console.log("Servidor ejecutándose en http://localhost:5000/");
 });
 
 //Ruta para crear una nueva entrada
